@@ -23,6 +23,8 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+app_include_css =  ["/assets/lsp_customizations/css/company_theme.css",]
+app_include_js = ["/assets/lsp_customizations/js/company_theme.js",]
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/lsp_customizations/css/lsp_customizations.css"
@@ -174,6 +176,9 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
+override_whitelisted_methods = {
+    "frappe.core.doctype.user.user.switch_theme": "lsp_customizations.overrides.switch_theme.switch_theme"
+}
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "lsp_customizations.event.get_events"
 # }
@@ -242,3 +247,4 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+on_session_creation = "lsp_customizations.api.company_theme.company_theme"
