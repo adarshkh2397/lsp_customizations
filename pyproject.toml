@@ -1,9 +1,9 @@
 [project]
 name = "lsp_customizations"
 authors = [
-    { name = ""Adarsh Khandelwal"", email = "adscot.23@gmail.com"}
+    { name = "Adarsh Khandelwal", email = "adscot.23@gmail.com"}
 ]
-description = ""UI customization for multi-company ERPNext setup""
+description = "UI customizations for multi-company ERPNext setup"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

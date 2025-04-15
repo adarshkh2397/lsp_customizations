@@ -1,7 +1,7 @@
 app_name = "lsp_customizations"
 app_title = "Lsp Customizations"
-app_publisher = "\"Adarsh Khandelwal\""
-app_description = "\"UI customization for multi-company ERPNext setup\""
+app_publisher = "Adarsh Khandelwal"
+app_description = "UI customizations for multi-company ERPNext setup"
 app_email = "adscot.23@gmail.com"
 app_license = "mit"
 

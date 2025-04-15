@@ -1,6 +1,6 @@
 ## Lsp Customizations
 
-"UI customization for multi-company ERPNext setup"
+UI customizations for multi-company ERPNext setup
 
 #### License
 
