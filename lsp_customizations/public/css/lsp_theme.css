@@ -1,0 +1,79 @@
+:root {
+    --lsp-main-color: #D72638;        /* Bold Scarlet Red */
+    --lsp-second-color: #F46060;      /* Soft Coral for hovers */
+    --lsp-third-color: #FAD4D4;       /* Blush/Light Pink */
+    --lsp-widget-bg: #FFF6F6;         /* Very light peachy background */
+    --lsp-text-color: #3A1F1F;        /* Rich dark brownish red for readability */
+    --lsp-soft-text: #6B4C4C;         /* For muted text */
+    --lsp-highlight: #FFDADA;         /* Highlight tone */
+}
+
+[data-theme=lsp_theme] {
+    --primary: var(--lsp-main-color);
+    --dt-primary-color: var(--lsp-main-color);
+    --blue-avatar-color: var(--lsp-main-color);
+    --blue: var(--lsp-main-color);
+
+    --bg-color: var(--lsp-widget-bg);
+    --fg-color: var(--lsp-widget-bg);
+    --modal-bg: var(--lsp-widget-bg);
+    --navbar-bg: var(--lsp-third-color);
+
+    --btn-primary: var(--lsp-main-color);
+    --btn-default-bg: var(--lsp-third-color);
+    --btn-default-hover-bg: var(--lsp-second-color);
+
+    --border-color: #f1bcbc;
+    --scrollbar-thumb-color: #e8a1a1;
+    --scrollbar-track-color: #ffecec;
+
+    --lsp-highlight-color: var(--lsp-highlight);
+    --placeholder-color: #e1b7b7;
+
+    --sidebar-select-color: var(--lsp-third-color);
+    --subtle-fg: var(--lsp-highlight);
+    --control-bg : white;
+}
+
+/* Page and layout background */
+[data-theme=lsp_theme] .page-container,
+[data-theme=lsp_theme] .layout-main-section {
+    background-color: var(--lsp-widget-bg);
+}
+
+/* Hover effect */
+[data-theme=lsp_theme] .dropdown-menu li a:hover {
+    background-color: var(--lsp-second-color);
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+/* Body styling */
+[data-theme=lsp_theme] body {
+    font-size: 14px;
+    background-color: #fff5f5;
+    color: var(--lsp-text-color);
+}
+
+/* Links */
+[data-theme=lsp_theme] a {
+    color: #9e2a2b;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Small text */
+[data-theme=lsp_theme] .small,
+[data-theme=lsp_theme] small {
+    font-size: 95%;
+    color: var(--lsp-soft-text);
+}
+
+/* Section headers */
+[data-theme=lsp_theme] .h6.uppercase,
+[data-theme=lsp_theme] h6.uppercase {
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 0.5px;
+    color: var(--lsp-main-color);
+}
