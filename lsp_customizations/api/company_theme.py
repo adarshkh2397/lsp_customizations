@@ -15,9 +15,9 @@ def company_theme():
 
         #logger.info(f"{company_docname} is the company ")
 
-        if company_docname == "Lakeshore Products":
+        if company_docname == "Demo Test Corp":
             frappe.db.set_value("User", frappe.session.user, "desk_theme", "lsp_theme")
-        elif company_docname == "Alumiramp":
+        elif company_docname == "Reggie Steel":
             frappe.db.set_value("User", frappe.session.user, "desk_theme", "arp_theme")
         else:
             frappe.db.set_value("User", frappe.session.user, "desk_theme", "Light")

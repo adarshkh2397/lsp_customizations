@@ -16,9 +16,9 @@ $(document).ready(function () {
 
 	let logoPath = "";
 
-	if (company === "Lakeshore Products") {
+	if (company === "Demo Test Corp") {
 		logoPath = "/files/lsp-logo-large.avif";
-	} else if (company === "Alumiramp") {
+	} else if (company === "Reggie Steel") {
 		logoPath = "/files/lifts.avif";
 	}
 
